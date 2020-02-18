@@ -1,0 +1,1034 @@
+body{
+	background-image: url("../foto/wooden_floor.jpg");
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#container{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a{
+	text-decoration: none;
+	color: #000000;
+}
+
+#rectangle{
+	width: 96%;
+	border-radius: 50px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	background-color: rgb(245, 222, 179, 0.5);
+	text-align: center;
+}
+
+#home_page{
+	float: left;
+	width: 10%;
+	margin-top: 40px;
+}
+
+#home_page img{
+	width: 50px;
+	height: 50px;
+}
+
+#logo{
+	float: left;
+	width: 30%;
+	text-align: right;
+}
+
+#logo h1{
+	padding: 0;
+	margin: 0;
+	font-size: 70px;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 200%;
+}
+
+#foto{
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+#foto img{
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+}
+
+#clock{
+	float: left;
+	width: 40%;
+	font-size: 40px;
+	text-align: center;
+	line-height: 70px;
+	letter-spacing: 5px;
+}
+
+.square{
+	float: left;
+	width: 45%;
+	height: 480px;
+	margin-top: 10px;
+	margin-left: 40px;
+	text-align: center;
+}
+
+.tile{
+	width: 35%;
+	height: 142px;
+	margin-top: 20px;
+	margin-left: 10%;
+	float: left;
+	background-color: rgb(245, 222, 179, 0.5);
+	border-radius: 25px;
+	font-size: 30px;
+	line-height: 200%;
+	cursor: pointer;
+	transition: 0.5s;
+	color: #000000;
+}
+
+.tile:hover{
+	background-color: rgb(245, 222, 179, 0.5);
+	transform: scale(1.1, 1.1);
+	transition: 0.5s;
+}
+
+.icon-user{
+	font-size: 60px;
+}
+
+.icon-laptop-circled{
+	font-size: 60px;
+}
+
+.icon-briefcase{
+	font-size: 60px;
+}
+
+.icon-email{
+	font-size: 60px;
+}
+
+.tile1{
+	width: 50%;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+	padding: 15px;
+	box-sizing: border-box;
+	background-color: rgb(245, 222, 179, 0.6);
+}
+
+.tile1 h3{
+		text-align: center;
+		font-size: 18px;
+		margin: 0;
+		padding: 0;
+}
+
+.tile1 p{
+		padding: 0;
+		margin: 0;
+		text-align: center;
+		font-size: 17px;
+		font-style: italic;
+}
+
+.tile_home{
+	width: 80%;
+	height: 380px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+}
+
+.tile_home img{
+	width: 100%;
+	height: 100%;
+	border-radius: 25px;
+}
+
+.tile2{
+	width: 80%;
+	height: 380px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	background-color: rgb(245, 222, 179, 0.6);
+}
+
+.about_me{
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	font-size: 20px;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.desc_me{
+	text-align: center;
+	font-size: 17px;
+	font-weight: 400;
+}
+
+.my_offer{
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	font-size: 20px;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.desc_offer{
+	text-align: center;
+	font-size: 17px;
+	font-weight: 400;
+}
+
+.portfolio{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.desc_portfolio{
+	text-align: center;
+	font-size: 40px;
+	font-weight: 400;
+}
+
+.icon-github-circled{
+	font-size: 50px;
+}
+
+.icon-linkedin-rect{
+	font-size: 50px;
+	color: #0E76A8;
+}
+
+.contact{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.desc_contact{
+	text-align: center;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.icon-phone{
+	font-size: 20px;
+}
+
+.icon-mail{
+	font-size: 20px;
+}
+
+.map{
+	width: 95%;
+	height: 120px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.map iframe{
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+}
+
+#fb{
+	float: left;
+	width: 16%;
+	height: 53px;
+	margin-top: 10px;
+	margin-left: 13%;
+	border-radius: 10px;
+	background-color: #4668B3;
+	color: white;
+	cursor:pointer;
+}
+
+#ig{
+	float: left;
+	width: 16%;
+	height: 53px;
+	margin-top: 10px;
+	margin-left: 13%;
+	border-radius: 10px;
+    background: radial-gradient(circle at 30% 107%, #FDF497 0%, 
+    #FDF497 5%, #FD5949 45%,#D6249F 60%,#285AEB 90%);
+	color: white;
+	cursor:pointer;
+}
+
+#tw{
+	float: left;
+	width: 16%;
+	height: 53px;
+	margin-top: 10px;
+	margin-left: 13%;
+	border-radius: 10px;
+	background-color: #3095D3;
+	color: white;
+	cursor:pointer;
+}
+
+#fb:hover{
+	background-color: #3557A2;
+}
+
+#ig:hover{
+	background: radial-gradient(circle at 30% 107%, #ECE386 0%,
+    #ECE386 5%, #EC4838 45%,#C5138E 60%,#1749D7 90%);
+}
+
+#tw:hover{
+	background-color: #2084C2;
+}
+
+.icon-facebook-rect{
+	font-size: 35px;
+}
+
+.icon-instagram{
+	font-size: 35px;
+}
+
+.icon-twitter{
+	font-size: 35px;
+}
+
+#footer{
+	background-color: rgb(245, 222, 179, 0.5);
+	width: 100%;
+	height: 30px;
+	margin-top: 5px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 200%;
+}
+
+		/*Media is starting here*/
+
+@media only screen and (min-width: 0) and (max-width: 480px){
+#rectangle{
+	width: 90%;
+}
+
+#home_page{
+	margin-top: 10px;
+}
+
+#home_page img{
+	width: 30px;
+	height: 30px;
+}
+
+#logo{
+	text-align: center;
+}
+
+#logo h1{
+	font-size: 16px;
+	line-height: 170%;
+}
+
+#foto img{
+	width: 50px;
+	height: 50px;
+}
+
+#clock{
+	font-size: 15px;
+	line-height: 25px;
+}
+
+.square{
+	width: 100%;
+	height: 335px;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.tile{
+	width: 45%;
+	height: 82px;
+	margin-top: 20px;
+	margin-left: 3%;
+	font-size: 20px;
+	line-height: 150%;
+}
+
+.icon-user{
+	font-size: 25px;
+}
+
+.icon-laptop-circled{
+	font-size: 25px;
+}
+
+.icon-briefcase{
+	font-size: 25px;
+}
+
+.icon-email{
+	font-size: 25px;
+}
+
+.tile1{
+	width: 90%;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+
+.tile1 h3{
+		text-align: center;
+		font-size: 17px;
+		margin: 0;
+		padding: 0;
+}
+
+.tile1 p{
+		padding: 0;
+		margin: 0;
+		text-align: center;
+		font-size: 15px;
+		font-style: italic;
+}
+
+.tile_home{
+	width: 97%;
+	height: 260px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tile_home img{
+	width: 100%;
+	height: 100%;
+	border-radius: 25px;
+}
+
+.tile2{
+	width: 97%;
+	height: 260px;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	background-color: rgb(245, 222, 179, 0.6);
+}
+
+.about_me{
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+}
+
+.desc_me{
+	font-size: 11px;
+}
+
+.my_offer{
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+}
+
+.desc_offer{
+	font-size: 11px;
+}
+
+.portfolio{
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+}
+
+.desc_portfolio{
+	font-size: 25px;
+}
+
+.icon-github-circled{
+	font-size: 30px;
+}
+
+.icon-linkedin-rect{
+	font-size: 30px;
+	color: #0E76A8;
+}
+
+.contact{
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
+}
+
+.desc_contact{
+	font-size: 14px;
+}
+
+.icon-phone{
+	font-size: 15px;
+}
+
+.icon-mail{
+	font-size: 15px;
+}
+
+.map{
+	width: 95%;
+	height: 90px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.map iframe{
+	width: 100%;
+	height: 100%;
+}
+
+#fb{
+	width: 30%;
+	height: 45px;
+	margin-top: 5px;
+	margin-left: 3%;
+}
+
+#ig{
+	width: 30%;
+	height: 45px;
+	margin-top: 5px;
+	margin-left: 3%;
+}
+
+#tw{
+	width: 30%;
+	height: 45px;
+	margin-top: 5px;
+	margin-left: 3%;
+}
+
+.icon-facebook-rect{
+	font-size: 25px;
+}
+
+.icon-instagram{
+	font-size: 25px;
+}
+
+.icon-twitter{
+	font-size: 25px;
+}
+
+#footer{
+	width: 100%;
+	height: 40px;
+	margin-top: 5px;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	font-size: 14px;
+	line-height: 150%;
+}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+#rectangle{
+	width: 95%;
+}
+
+#home_page{
+	margin-top: 10px;
+}
+
+#home_page img{
+	width: 50px;
+	height: 50px;
+}
+
+#logo{
+	text-align: right;
+}
+
+#logo h1{
+	font-size: 25px;
+	line-height: 200%;
+}
+
+#foto img{
+	width: 90px;
+	height: 90px;
+}
+
+#clock{
+	font-size: 25px;
+	line-height: 50px;
+}
+
+.square{
+	width: 100%;
+	height: 360px;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.tile{
+	width: 45%;
+	height: 93px;
+	margin-top: 20px;
+	margin-left: 3%;
+	font-size: 25px;
+	line-height: 150%;
+}
+
+.icon-user{
+	font-size: 30px;
+}
+
+.icon-laptop-circled{
+	font-size: 40px;
+}
+
+.icon-briefcase{
+	font-size: 40px;
+}
+
+.icon-email{
+	font-size: 40px;
+}
+
+.tile1{
+	width: 50%;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+
+.tile1 h3{
+		text-align: center;
+		font-size: 17px;
+		margin: 0;
+		padding: 0;
+}
+
+.tile1 p{
+		padding: 0;
+		margin: 0;
+		text-align: center;
+		font-size: 15px;
+		font-style: italic;
+}
+
+.tile_home{
+	width: 97%;
+	height: 260px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tile_home img{
+	width: 100%;
+	height: 100%;
+	border-radius: 25px;
+}
+
+.tile2{
+	width: 97%;
+	height: 260px;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	background-color: rgb(245, 222, 179, 0.6);
+}
+
+.about_me{
+	padding: 0;
+	margin: 0;
+	font-size: 17px;
+}
+
+.desc_me{
+	font-size: 16px;
+}
+
+.my_offer{
+	padding: 0;
+	margin: 0;
+	font-size: 17px;
+}
+
+.desc_offer{
+	font-size: 16px;
+}
+
+.portfolio{
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+}
+
+.desc_portfolio{
+	font-size: 30px;
+}
+
+.icon-github-circled{
+	font-size: 40px;
+}
+
+.icon-linkedin-rect{
+	font-size: 40px;
+	color: #0E76A8;
+}
+
+.contact{
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
+}
+
+.desc_contact{
+	font-size: 16px;
+}
+
+.icon-phone{
+	font-size: 15px;
+}
+
+.icon-mail{
+	font-size: 15px;
+}
+
+.map{
+	width: 95%;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.map iframe{
+	width: 100%;
+	height: 100%;
+}
+
+#fb{
+	width: 30%;
+	height: 62px;
+	margin-top: 10px;
+	margin-left: 3%;
+}
+
+#ig{
+	width: 30%;
+	height: 62px;
+	margin-top: 10px;
+	margin-left: 3%;
+}
+
+#tw{
+	width: 30%;
+	height: 62px;
+	margin-top: 10px;
+	margin-left: 3%;
+}
+
+.icon-facebook-rect{
+	font-size: 40px;
+}
+
+.icon-instagram{
+	font-size: 40px;
+}
+
+.icon-twitter{
+	font-size: 40px;
+}
+
+#footer{
+	width: 100%;
+	height: 40px;
+	margin-top: 5px;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	font-size: 16px;
+	line-height: 200%;
+}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1280px){
+#rectangle{
+	width: 95%;
+}
+
+#home_page{
+	margin-top: 10px;
+}
+
+#home_page img{
+	width: 50px;
+	height: 50px;
+}
+
+#logo{
+	text-align: right;
+}
+
+#logo h1{
+	font-size: 35px;
+	line-height: 200%;
+}
+
+#foto img{
+	width: 90px;
+	height: 90px;
+}
+
+#clock{
+	font-size: 35px;
+	line-height: 50px;
+}
+
+.square{
+	width: 100%;
+	height: 100%;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.tile{
+	width: 45%;
+	height: 93px;
+	margin-top: 20px;
+	margin-left: 3%;
+	font-size: 25px;
+	line-height: 150%;
+}
+
+.icon-user{
+	font-size: 30px;
+}
+
+.icon-laptop-circled{
+	font-size: 40px;
+}
+
+.icon-briefcase{
+	font-size: 40px;
+}
+
+.icon-email{
+	font-size: 40px;
+}
+
+.tile1{
+	width: 30%;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+
+.tile1 h3{
+		text-align: center;
+		font-size: 17px;
+		margin: 0;
+		padding: 0;
+}
+
+.tile1 p{
+		padding: 0;
+		margin: 0;
+		text-align: center;
+		font-size: 15px;
+		font-style: italic;
+}
+
+.tile_home{
+	width: 70%;
+	height: 260px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tile_home img{
+	width: 100%;
+	height: 100%;
+	border-radius: 25px;
+}
+
+.tile2{
+	width: 70%;
+	height: 260px;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	background-color: rgb(245, 222, 179, 0.6);
+}
+
+.about_me{
+	padding: 0;
+	margin: 0;
+	font-size: 17px;
+}
+
+.desc_me{
+	font-size: 16px;
+}
+
+.my_offer{
+	padding: 0;
+	margin: 0;
+	font-size: 17px;
+}
+
+.desc_offer{
+	font-size: 16px;
+}
+
+.portfolio{
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+}
+
+.desc_portfolio{
+	font-size: 30px;
+}
+
+.icon-github-circled{
+	font-size: 40px;
+}
+
+.icon-linkedin-rect{
+	font-size: 40px;
+	color: #0E76A8;
+}
+
+.contact{
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
+}
+
+.desc_contact{
+	font-size: 16px;
+}
+
+.icon-phone{
+	font-size: 15px;
+}
+
+.icon-mail{
+	font-size: 15px;
+}
+
+.map{
+	width: 95%;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.map iframe{
+	width: 100%;
+	height: 100%;
+}
+
+#fb{
+	width: 30%;
+	height: 62px;
+	margin-top: 10px;
+	margin-left: 3%;
+}
+
+#ig{
+	width: 30%;
+	height: 62px;
+	margin-top: 10px;
+	margin-left: 3%;
+}
+
+#tw{
+	width: 30%;
+	height: 62px;
+	margin-top: 10px;
+	margin-left: 3%;
+}
+
+.icon-facebook-rect{
+	font-size: 40px;
+}
+
+.icon-instagram{
+	font-size: 40px;
+}
+
+.icon-twitter{
+	font-size: 40px;
+}
+
+#footer{
+	width: 100%;
+	height: 40px;
+	margin-top: 5px;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	font-size: 16px;
+	line-height: 200%;
+}
+}
